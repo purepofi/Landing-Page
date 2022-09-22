@@ -5,12 +5,14 @@
 
 .Header {
     color: white;
-    background-color: rgb(50, 50, 131);
+    background-color: #1F2837;
 }
 
 .Headertop {
     display:flex;
     justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 ul {
@@ -24,3 +26,23 @@ a {
     color: white;
 }
 
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.titlesub {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.headerbody {
+    display: flex;
+    padding: 100px;
+}
+
+img {
+    max-height: 200px;
+}
