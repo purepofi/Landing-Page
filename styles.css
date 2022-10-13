@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Header {
@@ -17,7 +18,7 @@
 }
 
 ul {
-    display: flex;
+   display: flex;
     list-style: none;
     gap: 20px;
 }
@@ -41,14 +42,22 @@ a {
 .titlesub {
     font-size: 18px;
     color: #E5E7EB;
-
 }
 
 .headerbody {
     display: flex;
     padding: 100px;
+    justify-content: space-around;
+
 }
 
 img {
     max-height: 200px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 7px;
+    border-radius: 8px;
 }
