@@ -33,6 +33,12 @@ a {
     color: #E5E7EB;
 }
 
+.title
+.titlesub {
+    max-width: 444px;
+
+}
+
 .title {
     font-size: 48px;
     font-weight: extra-bold;
@@ -48,11 +54,11 @@ a {
     display: flex;
     padding: 100px;
     justify-content: space-around;
-
 }
 
 img {
     max-height: 200px;
+    margin-left: 44px;
 }
 
 button {
@@ -62,3 +68,4 @@ button {
     border-radius: 8px;
     border: none;
 }
+
