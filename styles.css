@@ -117,7 +117,7 @@ img {
 }
 
 .section4{
-    padding: 88px 177px;
+    padding: 88px 133px;
 }
 
 .call-action {
@@ -135,5 +135,16 @@ img {
     padding: 5px 20px;
     border-radius: 8px;
     border: 2px solid white;  
+}
+
+
+
+.footer {
+   background-color: #1F2937; 
+   color: #F9FAF8;
+   align-items: flex-end;
+   padding: 20px;
+   font-size: 9px;
+   text-align: center;
 }
 
