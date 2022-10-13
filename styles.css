@@ -57,7 +57,7 @@ img {
     margin-left: 44px;
 }
 
-button {
+.header-button {
     background-color: #3882F6;
     color: white;
     padding: 5px 20px;
@@ -98,7 +98,7 @@ button {
 
 .section3 {
     background-color: #E5E7EB;
-    padding: 200px;
+    padding: 100px 200px;
     display: flex;
     flex-direction: column;
 }  
@@ -106,6 +106,7 @@ button {
 .quote {
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
 }
 
@@ -114,3 +115,25 @@ button {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.section4{
+    padding: 88px 177px;
+}
+
+.call-action {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    display: flex;
+    padding: 33px 77px;
+    justify-content: space-around;
+}
+
+.call-action-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 2px solid white;  
+}
+
